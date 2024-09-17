@@ -30,18 +30,18 @@ This project demonstrates the use of micro frontends in a music app built using 
     ```bash
     cd artist-list
     yarn build
-    yarn preview --port 3000
+    yarn preview
     ```
   - ArtistDetails (remote application)
     ```bash
     cd artist-details
     yarn build
-    yarn preview --port 3001
+    yarn preview
     ```
   - UI (remote application)
      ```bash
      cd ui
      yarn build
-     yarn preview --port 3002
+     yarn preview
      ```
 3. Visit http://localhost:3000 to see the host application in action.
