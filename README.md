@@ -39,9 +39,9 @@ This project demonstrates the use of micro frontends in a music app built using 
     yarn preview --port 3001
     ```
   - UI (remote application)
-  ```bash
-  cd ui
-  yarn build
-  yarn preview --port 3002
-  ```
+     ```bash
+     cd ui
+     yarn build
+     yarn preview --port 3002
+     ```
 3. Visit http://localhost:3000 to see the host application in action.
